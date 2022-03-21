@@ -1,7 +1,27 @@
-/* Decent Defaults */
-
-img,
-video {
+/*Custom Properties*/
+:root {
+  --color-White: hsl(0, 0%, 100%)
+  --color-light-gray: hsl(212, 45%, 89%)
+  --color-grayish-blue: hsl(220, 15%, 55%)
+  --color-dark-blue:hsl(218, 44%, 22%)
+  --heading-font-family: 'Outfit', sans-serif;
+}
+ /* Decent Defaults */ img, video {
   width: 100%;
   height: auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Only Styles */
+@media (max-width: 47.9375em) {
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
 }
