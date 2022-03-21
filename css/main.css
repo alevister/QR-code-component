@@ -1,12 +1,18 @@
 /*Custom Properties*/
 :root {
-  --color-White: hsl(0, 0%, 100%)
-  --color-light-gray: hsl(212, 45%, 89%)
-  --color-grayish-blue: hsl(220, 15%, 55%)
-  --color-dark-blue:hsl(218, 44%, 22%)
-  --heading-font-family: 'Outfit', sans-serif;
+  --color-White: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+  --heading-font-family: "Outfit", sans-serif;
 }
- /* Decent Defaults */ img, video {
+
+html {
+  background-color: var(--color-light-gray);
+}
+/* Decent Defaults */
+img,
+video {
   width: 100%;
   height: auto;
 }
