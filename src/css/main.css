@@ -28,6 +28,7 @@ h5 {
   font-weight: 700;
   line-height: 1.3;
   color: var(--color-dark-blue);
+  padding-top: 20px;
 }
 
 h1 {
@@ -56,19 +57,26 @@ small,
   font-size: 0.937rem;
 }
 .container {
-  max-width: 80rem;
+  max-width: 280px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  margin-top: 20vh;
 }
+.card {
+  background: var(--color-White);
+  padding: 14px;
+  border-radius: 12px;
+}
+
 html {
   background-color: var(--color-light-gray);
 }
 /* Decent Defaults */
 img,
 video {
-  width: 18%;
-
-  height: auto;
+  width: 300px;
+  border-radius: 8px;
+  height: 250px;
+  object-fit: cover;
 }
 .attribution {
   font-size: 11px;
@@ -80,8 +88,13 @@ video {
 
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
+  .sm\:text-center {
+    text-align: center;
+  }
 }
 
 /* Desktop Only Styles */
 @media (min-width: 48em) {
+  .sm\:text-center {
+    text-align: center;
 }
